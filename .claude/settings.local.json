@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:lumexui.org)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(dotnet new:*)",
+      "Bash(dotnet add:*)",
+      "Bash(dotnet run:*)",
+      "Bash(dotnet tool install:*)",
+      "Bash(dotnet:*)",
+      "Bash(chmod:*)",
+      "Bash(./scripts/start-all-simple.sh:*)",
+      "Bash(curl:*)",
+      "Bash(find:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)",
+      "Bash(pkill:*)",
+      "Bash(xxd:*)",
+      "Bash(g:*)",
+      "Bash(git restore:*)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "Bash(mv:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(npm install:*)",
+      "Bash(tailwindcss:*)",
+      "Bash(tree:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm init:*)",
+      "Bash(./node_modules/.bin/tailwindcss:*)",
+      "Bash(npm run build-css:*)",
+      "Bash(node ./node_modules/tailwindcss/dist/cli.mjs:*)"
+    ],
+    "deny": [
+      "WebSearch"
+    ],
+    "ask": []
+  }
+}
