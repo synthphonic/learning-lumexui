@@ -1,0 +1,279 @@
+# Ignore files built by Visual Studio
+*.binlog
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+*.vspx
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio 2015 cache/options directory
+.vs/
+
+# Claude folder
+.claude/
+
+# User-specific files
+*.rsuser
+
+# Mono auto generated files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac crap
+.DS_Store
+
+# VS Code files
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Rider
+.idea/
+*.sln.iml
+
+# CodeRush personal settings
+.cr/personal
+
+# Python Tools for Visual Studio (PTVS)
+__pycache__/
+*.pyc
+
+# Cake - Uncomment if you are using it
+# tools/**
+# !tools/packages.config
+
+# Tabs Studio
+*.tss
+
+# Telerik's JustMock configuration file
+*.jmconfig
+
+# BizTalk build output
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+
+# OpenCover UI analysis results
+OpenCover/
+
+# Azure Stream Analytics local run output
+ASALocalRun/
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# NVidia Nsight GPU debugger configuration file
+*.nvuser
+
+# MFractors (Xamarin productivity tool) working folder
+.mfractor/
+
+# Local History for Visual Studio Code
+.history/
+
+# BeatPulse healthcheck temp database
+healthchecksdb
+
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
+
+# Ionide (cross platform F# VS Code tools) working folder
+.ionide/
+
+# Fody - auto-generated XML schema
+FodyWeavers.xsd
+
+# VS Code extensions for Unity dependency
+Library/
+Temp/
+*.log
+*.sarSA
+Assets/IvyManaged/resources
+Assets/IvyManager/Resources
+Packages/com.unity.ugui/Editor/Resources/UI
+Packages/com.unity.textmeshpro/Editor/Resources/ TMP_Fonts
+Packages/com.unity.textmeshpro/Editor/Resources/ TMP_Sprites
+Packages/com.unity.ugui/Editor/Resources/UI
+
+# Standard ignore files for .NET
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Rider
+.idea/
+*.sln.iml
+
+# CodeRush
+.cr/
+
+# TeamCity
+# Uncomment this section if you have TeamCity installed.
+#_TeamCity*
+
+# DotCover is a Code Coverage tool
+*.dotCover
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS 2015+
+*.vc.vc.opendb
+*.vc.db
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# CodeRush
+.cr/
+
+# TeamCity
+# Uncomment this section if you have TeamCity installed.
+#_TeamCity*
+
+# DotCover is a Code Coverage tool
+*.dotCover
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# DNX
+project.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# UWP project files
+# These files are auto generated from the template
+AppxManifest.xml
+Package.storeassociation.xml
+*_TemporaryKey.cer
+
+# WSA project files
+# These files are auto generated from the template
+*.wapproj
+*.wapproj.user
+*.wrlmanifest
+
+# Visual Studio 2017 auto generated files
+Generated\ Files/
+
+# Strongly typed NameJS files
+*.js代谢
+
+# Storybook
+storybook-static
+
+# NPM
+node_modules/
+.npm
+
+# Angular
+.e2e/
+angular.json
+
+# Docusaurus
+docusaurus/
+
+# Netlify
+.netlify
+
+# Gatsby
+.cache/
+public
+
+# Sass
+.sass-cache/
+
+# Rollup
+.rollup.cache/
+
+# Stylelint
+.stylelintcache
+
+# ESLint
+.eslintcache
+
+# Flow
+.flowconfig
+
+# Babel
+.babelrc
+.babelrc.json
+.babelrc.cjs
+.babelrc.js
+.babelrc.mjs
+.babelignore
+.babel.config.js
+.babel.config.json
+.babel.config.cjs
+.babel.config.mjs
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
